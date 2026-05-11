@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/autotests-api.iml" filepath="$PROJECT_DIR$/.idea/autotests-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../qa-automation-engineer-api-course/.idea/qa-automation-engineer-api-course.iml" filepath="$PROJECT_DIR$/../qa-automation-engineer-api-course/.idea/qa-automation-engineer-api-course.iml" />
     </modules>
   </component>
 </project>
