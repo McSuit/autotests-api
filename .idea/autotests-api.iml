@@ -6,6 +6,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="qa-automation-engineer-api-course" />
   </component>
 </module>
