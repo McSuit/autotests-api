@@ -13,7 +13,6 @@ def assert_create_file_response(request: CreateFileRequestSchema, response: Crea
     :param response: Ответ API с данными файла.
     :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
-    # Формируем ожидаемую ссылку на загруженный файл
     expected_url = f"http://localhost:8000/static/{request.directory}/{request.filename}"
 
     assert_equal(str(response.file.url), expected_url, "url")
@@ -59,11 +58,11 @@ def assert_create_file_with_empty_filename_response(actual: ValidationErrorRespo
     expected = ValidationErrorResponseSchema(
         details=[
             ValidationErrorSchema(
-                type="string_too_short",  # Тип ошибки, связанной с слишком короткой строкой.
-                input="",  # Пустое имя файла.
-                context={"min_length": 1},  # Минимальная длина строки должна быть 1 символ.
-                message="String should have at least 1 character",  # Сообщение об ошибке.
-                location=["body", "filename"]  # Ошибка возникает в теле запроса, поле "filename".
+                type="string_too_short",
+                input="",
+                context={"min_length": 1},
+                message="String should have at least 1 character",
+                location=["body", "filename"]
             )
         ]
     )
@@ -80,11 +79,11 @@ def assert_create_file_with_empty_directory_response(actual: ValidationErrorResp
     expected = ValidationErrorResponseSchema(
         details=[
             ValidationErrorSchema(
-                type="string_too_short",  # Тип ошибки, связанной с слишком короткой строкой.
-                input="",  # Пустая директория.
-                context={"min_length": 1},  # Минимальная длина строки должна быть 1 символ.
-                message="String should have at least 1 character",  # Сообщение об ошибке.
-                location=["body", "directory"]  # Ошибка возникает в теле запроса, поле "directory".
+                type="string_too_short",
+                input="",
+                context={"min_length": 1},
+                message="String should have at least 1 character",
+                location=["body", "directory"]
             )
         ]
     )
@@ -98,7 +97,31 @@ def assert_file_not_found_response(actual: InternalErrorResponseSchema):
     :param actual: Фактический ответ.
     :raises AssertionError: Если фактический ответ не соответствует ошибке "File not found"
     """
-    # Ожидаемое сообщение об ошибке, если файл не найден
     expected = InternalErrorResponseSchema(details="File not found")
-    # Используем ранее созданную функцию для проверки внутренней ошибки
     assert_internal_error_response(actual, expected)
+
+
+def assert_get_file_with_incorrect_file_id_response(actual: ValidationErrorResponseSchema):
+    """
+    Проверяет, что ответ на запрос файла с некорректным file_id соответствует ожидаемой валидационной ошибке.
+
+    При передаче невалидного UUID в качестве file_id API должен вернуть ошибку типа uuid_parsing,
+    указывающую на то, что входное значение не является корректным UUID.
+
+    :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
+    :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
+    """
+    expected = ValidationErrorResponseSchema(
+        details=[
+            ValidationErrorSchema(
+                type="uuid_parsing",
+                input="incorrect-file-id",
+                context={
+                    "error": "invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1"
+                },
+                message="Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1",
+                location=["path", "file_id"]
+            )
+        ]
+    )
+    assert_validation_error_response(actual, expected)
