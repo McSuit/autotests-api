@@ -1,3 +1,4 @@
+import allure
 from httpx import Response
 
 from clients.api_client import APIClient
@@ -19,6 +20,7 @@ class PublicUsersClient(APIClient):
         """
         return self.post("/api/v1/users", json=request.model_dump(by_alias=True))
 
+    @allure.step("Create user")
     def create_user(self, request: CreateUserRequestSchema) -> CreateUserResponseSchema:
         response = self.create_user_api(request)
         return CreateUserResponseSchema.model_validate_json(response.text)
