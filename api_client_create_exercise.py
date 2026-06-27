@@ -1,3 +1,4 @@
+from config import settings
 from clients.courses.courses_client import get_courses_client
 from clients.courses.courses_schema import CreateCourseRequestSchema
 from clients.exercises.exercises_client import get_exercises_client
@@ -23,7 +24,7 @@ courses_client = get_courses_client(authentication_user)
 exercises_client = get_exercises_client(authentication_user)
 
 # Автоматическая генерация данных, кроме необходимых параметров
-create_file_request = CreateFileRequestSchema(upload_file="./testdata/files/image.png")
+create_file_request = CreateFileRequestSchema(upload_file=settings.test_data.image_png_file)
 create_file_response = files_client.create_file(create_file_request)
 print('Create file data:', create_file_response)
 
