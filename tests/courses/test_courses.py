@@ -31,8 +31,8 @@ from tools.assertions.schema import validate_json_schema
 @pytest.mark.courses
 @pytest.mark.regression
 @allure.tag(AllureTag.COURSES, AllureTag.REGRESSION)
-@allure.epic(AllureEpic.LMS)  # Добавили epic
-@allure.feature(AllureFeature.COURSES)  # Добавили feature
+@allure.epic(AllureEpic.LMS)
+@allure.feature(AllureFeature.COURSES)
 @allure.parent_suite(AllureEpic.LMS)
 @allure.suite(AllureFeature.COURSES)
 class TestCourses:

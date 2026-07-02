@@ -9,7 +9,6 @@ from clients.users.users_schema import CreateUserRequestSchema
 
 public_users_client = get_public_users_client()
 
-# Больше нет необходимости передавать значения, они будут генерировать автоматически
 create_user_request = CreateUserRequestSchema()
 create_user_response = public_users_client.create_user(create_user_request)
 
@@ -20,12 +19,10 @@ authentication_user = AuthenticationUserSchema(
 files_client = get_files_client(authentication_user)
 courses_client = get_courses_client(authentication_user)
 
-# Автоматическая генерация данных, кроме необходимых параметров
 create_file_request = CreateFileRequestSchema(upload_file=settings.test_data.image_png_file)
 create_file_response = files_client.create_file(create_file_request)
 print('Create file data:', create_file_response)
 
-# Используем сгенерированные значения для создания курса
 create_course_request = CreateCourseRequestSchema(
     preview_file_id=create_file_response.file.id,
     created_by_user_id=create_user_response.user.id

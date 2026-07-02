@@ -11,7 +11,6 @@ class CourseSchema(BaseModel):
     estimatedTime: str
 
 
-# Инициализируем модель CourseSchema через распаковку словаря
 course_dict = {
     "id": "course-id",
     "title": "Playwright",
@@ -23,7 +22,6 @@ course_dict = {
 course_dict_model = CourseSchema(**course_dict)
 print('Course dict model:', course_dict_model)
 
-# Инициализируем модель CourseSchema через JSON
 course_json = """
 {
     "id": "course-id",
@@ -52,7 +50,6 @@ from pydantic.alias_generators import to_camel
 
 
 class CourseSchema2(BaseModel):
-    # Автоматическое преобразование snake_case → camelCase
     model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
 
     id: str
@@ -85,6 +82,5 @@ class CourseSchema3(BaseModel):
     estimated_time: str = Field(alias="estimatedTime", default="2 weeks")
 
 
-# Создадим объект модели без передачи параметров
 course = CourseSchema3()
 print(course)

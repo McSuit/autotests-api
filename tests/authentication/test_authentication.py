@@ -27,7 +27,7 @@ from tools.assertions.schema import validate_json_schema
 class TestAuthentication:
     @allure.story(AllureStory.LOGIN)
     @allure.sub_suite(AllureStory.LOGIN)
-    @allure.title("Login with correct email and password")  # Добавили заголовок
+    @allure.title("Login with correct email and password")
     @allure.severity(Severity.BLOCKER)
     def test_login(
             self,

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3c3777b4-1577-4ba9-bd5c-9f77f8628047' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDA3OjA4OjI3LjEwMzgyMCIsInVzZXJfaWQiOiJhNjU4ZTI4ZS00MTU4LTQ0NGQtOTAyMi0xMzc4YTgwZDNlNWQifQ.PnLVGwFYrR4_90oID7SWsOqd7Wt93Se9uAxz4n4BPEg' \
+  -H 'content-length: 258' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Material once past without.","maxScore":61,"minScore":21,"description":"Soon well stop education effect consumer.\nMonth theory station those born can forget vote. Business company word develop. Exactly those stand lead.","estimatedTime":"6 weeks"}'

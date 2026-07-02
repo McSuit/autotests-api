@@ -1,20 +1,20 @@
 import pytest
 
-SYSTEM_VERSION = "v1.2.0"  # Для примера укажем версию тестируемой системы
+SYSTEM_VERSION = "v1.2.0"
 
 
 @pytest.mark.skipif(
-    SYSTEM_VERSION == "v1.3.0",  # Пропустим автотест, если версия системы равна v1.3.0
+    SYSTEM_VERSION == "v1.3.0",
     reason="Тест не может быть запущен на версии системы v1.3.0"
 )
-def test_system_version_valid():  # В текущей конфигурации этот тест запустится
+def test_system_version_valid():
     pass
 
 
 @pytest.mark.skipif(
-    SYSTEM_VERSION == "v1.2.0",  # Пропустим автотест, если версия системы равна v1.2.0
+    SYSTEM_VERSION == "v1.2.0",
     reason="Тест не может быть запущен на версии системы v1.2.0"
 )
-def test_system_version_invalid():  # Этот автотест не запустится
+def test_system_version_invalid():
     pass
 

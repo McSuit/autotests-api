@@ -21,7 +21,6 @@ class AuthenticationClient(APIClient):
         """
         return self.post(
             "/api/v1/authentication/login",
-            # Сериализуем модель в словарь с использованием alias
             json=request.model_dump(by_alias=True)
         )
 
@@ -35,13 +34,11 @@ class AuthenticationClient(APIClient):
         """
         return self.post(
             "/api/v1/authentication/refresh",
-            # Сериализуем модель в словарь с использованием alias
             json=request.model_dump(by_alias=True)
         )
 
     def login(self, request: LoginRequestSchema) -> LoginResponseSchema:
         response = self.login_api(request)
-        # Инициализируем модель через валидацию JSON строки
         return LoginResponseSchema.model_validate_json(response.text)
 
 

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDA3OjA4OjQyLjE0MzkwNyIsInVzZXJfaWQiOiJhZjIyNWI2Mi02ZTVlLTQ1YWMtYWNjZC05NDFkN2JjMTVkM2QifQ.s5ukcF3SxBchhrX6_qr6xfbT0ttzx5g4o71u3x2mh0I' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Head add third record rich.","maxScore":85,"minScore":17,"description":"Resource usually treatment idea young. Improve little agent make probably back easy involve.\nDebate north themselves officer operation. May property oil go. Pressure in group.","estimatedTime":"8 weeks","previewFileId":"5ddb0e6f-142a-4448-a7c9-a160ea7a9592","createdByUserId":"af225b62-6e5e-45ac-accd-941d7bc15d3d"}'

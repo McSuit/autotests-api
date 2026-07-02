@@ -1,8 +1,8 @@
 import httpx
-from tools.fakers import fake  # Импортируем функцию для генерации случайного email
+from tools.fakers import fake
 
 payload = {
-    "email": fake.email(),  # Используем функцию для генерации случайного email
+    "email": fake.email(),
     "password": "string",
     "lastName": "string",
     "firstName": "string",

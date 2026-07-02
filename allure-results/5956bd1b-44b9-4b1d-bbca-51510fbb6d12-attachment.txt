@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDA3OjQwOjQ5LjI4MzEwMiIsInVzZXJfaWQiOiI0MTZjYjkwZC1jOTUyLTQ0NWUtOGU1ZC1iNjFkOTc1MzQ4ZDYifQ.pJz7sfGwm-C8jhc_uZYy89_3UhklIWKedzbh_jPj1qw' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relate different economic economy yeah reveal suffer.","courseId":"519a462e-60a0-44cd-979c-a40b46264dfb","maxScore":82,"minScore":11,"description":"Decade system piece fear why child. More raise believe bank factor red.\nFace study range method which.\nPolitics evidence expert detail employee financial. Series tell half music any American.","estimatedTime":"5 weeks","orderIndex":33}'

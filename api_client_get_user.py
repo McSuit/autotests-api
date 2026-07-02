@@ -5,7 +5,6 @@ from clients.users.users_schema import CreateUserRequestSchema
 
 public_users_client = get_public_users_client()
 
-# Больше нет необходимости передавать значения, они будут генерироваться автоматически
 create_user_request = CreateUserRequestSchema()
 create_user_response = public_users_client.create_user(create_user_request)
 print('Create user data:', create_user_response)

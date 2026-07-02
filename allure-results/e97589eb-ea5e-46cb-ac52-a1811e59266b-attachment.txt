@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDA3OjA4OjM0LjU4MTg1OSIsInVzZXJfaWQiOiJiZjU1ZGM2OC0xYzllLTQzMWMtOTZkYy04NTU4YjZmNjEwNzQifQ.smgQvgRIv0TzBbjThbljupNnRvviukcGbfv_Ew5T4Do' \
+  -H 'content-length: 273' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Before player ask tree finish.","courseId":"532f2a19-eaa0-4b93-afc7-fa9a6822a384","maxScore":90,"minScore":15,"description":"Ever pretty money question several. Work hour play. About also major you professional usually.","estimatedTime":"7 weeks","orderIndex":23}'
