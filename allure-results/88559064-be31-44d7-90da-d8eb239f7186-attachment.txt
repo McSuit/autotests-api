@@ -1,2 +1,0 @@
-[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
-[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 503 Service Unavailable from http://localhost:8000/api/v1/users
