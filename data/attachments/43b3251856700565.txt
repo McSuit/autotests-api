@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAzVDA5OjM1OjM0LjM4ODE5OSIsInVzZXJfaWQiOiI5MjE1MjQ0Yy00NzRiLTRkMjgtYTdlNS1kNzY1MmNhMjI2ZmQifQ.zVSj2rQI8i4jtoYHhRt1QKdRV0-32l2-NsDJB9Wal8A' \
+  -H 'content-length: 290' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Modern past return land.","maxScore":87,"minScore":17,"description":"State fall compare think put food security radio. Run better on region.","estimatedTime":"1 weeks","previewFileId":"21a3b293-cc2d-49f6-a23f-a7707dd53e1c","createdByUserId":"9215244c-474b-4d28-a7e5-d7652ca226fd"}'

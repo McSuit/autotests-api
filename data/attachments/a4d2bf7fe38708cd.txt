@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAzVDA5OjM1OjMzLjIwMTYzNSIsInVzZXJfaWQiOiIyMDIyMDI5Yy1mNTdkLTRmNDYtYTY0YS03MjY5NTU5Y2M4YmUifQ.IaKkyYQp_m5HGZPyKQZPjbztzjxlBWuHnj9_wioO9T4' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"No measure show own.","courseId":"e86117e1-7e53-43ac-b608-588565d279e6","maxScore":80,"minScore":21,"description":"By thank democratic. Protect local choice certainly individual deal. Candidate north player meet describe father speak.\nBox sea son resource collection. Citizen those office market of.","estimatedTime":"1 weeks","orderIndex":95}'

@@ -1,0 +1,79 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+        Негативный тест: проверяет, что API возвращает ошибку валидации 422 при передаче
+        некорректного (не UUID) значения в качестве file_id.
+        ","266","Get file with incorrect file id","LMS service","Fri Jul 03 09:05:38 UTC 2026","passed","Fri Jul 03 09:05:38 UTC 2026","Validate entity","Files","",""
+"","287","Create user","LMS service","Fri Jul 03 09:05:38 UTC 2026","passed","Fri Jul 03 09:05:39 UTC 2026","Create entity","Users","",""
+"","555","Create user","LMS service","Fri Jul 03 09:05:38 UTC 2026","passed","Fri Jul 03 09:05:38 UTC 2026","Create entity","Users","",""
+"
+        Проверяет обновление задания через PATCH /api/v1/exercises/{exercise_id}.
+
+        Убеждается, что:
+        - статус-код ответа равен 200 OK;
+        - все поля ответа соответствуют данным запроса на обновление;
+        - тело ответа соответствует JSON-схеме UpdateExerciseResponseSchema.
+        ","25","Update exercise","LMS service","Fri Jul 03 09:05:33 UTC 2026","passed","Fri Jul 03 09:05:33 UTC 2026","Update entity","Exercises","",""
+"","557","Login with correct email and password","LMS service","Fri Jul 03 09:05:29 UTC 2026","passed","Fri Jul 03 09:05:30 UTC 2026","Login","Authentication","",""
+"
+        Проверяет успешное создание задания через POST /api/v1/exercises.
+
+        Убеждается, что:
+        - статус-код ответа равен 200 OK;
+        - все поля ответа соответствуют данным запроса, включая ``course_id``,
+          ``title``, ``max_score``, ``min_score``, ``description``,
+          ``estimated_time`` и ``order_index``;
+        - тело ответа соответствует JSON-схеме CreateExerciseResponseSchema.
+        ","26","Create exercise","LMS service","Fri Jul 03 09:05:33 UTC 2026","passed","Fri Jul 03 09:05:33 UTC 2026","Create entity","Exercises","",""
+"
+        Проверяет получение списка заданий через GET /api/v1/exercises.
+
+        Убеждается, что:
+        - статус-код ответа равен 200 OK;
+        - список заданий в ответе соответствует ранее созданным заданиям из function_exercise;
+        - тело ответа соответствует JSON-схеме GetExercisesResponseSchema.
+        ","17","Get exercises","LMS service","Fri Jul 03 09:05:35 UTC 2026","passed","Fri Jul 03 09:05:35 UTC 2026","Get entities","Exercises","",""
+"
+        Проверяет получение задания через GET /api/v1/exercises/{exercise_id}.
+
+        Убеждается, что:
+        - статус-код ответа равен 200 OK;
+        - данные задания в ответе совпадают с ранее созданным заданием из function_exercise;
+        - тело ответа соответствует JSON-схеме GetExerciseResponseSchema.
+        ","21","Get exercise","LMS service","Fri Jul 03 09:05:34 UTC 2026","passed","Fri Jul 03 09:05:34 UTC 2026","Get entity","Exercises","",""
+"","262","Create file with empty filename","LMS service","Fri Jul 03 09:05:36 UTC 2026","passed","Fri Jul 03 09:05:36 UTC 2026","Validate entity","Files","",""
+"","303","Delete file","LMS service","Fri Jul 03 09:05:37 UTC 2026","passed","Fri Jul 03 09:05:38 UTC 2026","Delete entity","Files","",""
+"","268","Create file with empty directory","LMS service","Fri Jul 03 09:05:37 UTC 2026","passed","Fri Jul 03 09:05:37 UTC 2026","Validate entity","Files","",""
+"
+        Проверяет успешное создание курса через POST /api/v1/courses.
+
+        Убеждается, что:
+        - статус-код ответа равен 200 OK;
+        - все поля ответа соответствуют данным запроса, включая вложенные
+          модели файла (preview_file.id) и пользователя (created_by_user.id);
+        - тело ответа соответствует JSON-схеме CreateCourseResponseSchema.
+        ","33","Create course","LMS service","Fri Jul 03 09:05:32 UTC 2026","passed","Fri Jul 03 09:05:32 UTC 2026","Create entity","Courses","",""
+"
+        Проверяет получение списка курсов через GET /api/v1/courses.
+
+        Убеждается, что список курсов в ответе соответствует ранее
+        созданным курсам и тело ответа валидно по JSON-схеме.
+        ","25","Get courses","LMS service","Fri Jul 03 09:05:30 UTC 2026","passed","Fri Jul 03 09:05:30 UTC 2026","Get entities","Courses","",""
+"
+        Проверяет обновление курса через PATCH /api/v1/courses/{course_id}.
+
+        Убеждается, что поля обновлённого курса в ответе соответствуют
+        переданным в запросе данным и тело ответа валидно по JSON-схеме.
+        ","33","Update course","LMS service","Fri Jul 03 09:05:32 UTC 2026","passed","Fri Jul 03 09:05:32 UTC 2026","Update entity","Courses","",""
+"","18","Get file","LMS service","Fri Jul 03 09:05:36 UTC 2026","passed","Fri Jul 03 09:05:36 UTC 2026","Get entity","Files","",""
+"","558","Create user","LMS service","Fri Jul 03 09:05:38 UTC 2026","passed","Fri Jul 03 09:05:39 UTC 2026","Create entity","Users","",""
+"","15","Get user me","LMS service","Fri Jul 03 09:05:40 UTC 2026","passed","Fri Jul 03 09:05:40 UTC 2026","Get entity","Users","",""
+"","24","Create file","LMS service","Fri Jul 03 09:05:35 UTC 2026","passed","Fri Jul 03 09:05:35 UTC 2026","Create entity","Files","",""
+"
+        Проверяет удаление задания через DELETE /api/v1/exercises/{exercise_id}.
+
+        Убеждается, что:
+        - статус-код ответа на DELETE-запрос равен 200 OK;
+        - последующий GET-запрос по тому же exercise_id возвращает 404 Not Found;
+        - тело ответа на GET-запрос содержит ошибку ``""Exercise not found""``
+          и соответствует JSON-схеме InternalErrorResponseSchema.
+        ","20","Delete exercise","LMS service","Fri Jul 03 09:05:34 UTC 2026","passed","Fri Jul 03 09:05:34 UTC 2026","Delete entity","Exercises","",""

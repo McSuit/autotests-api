@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAzVDA5OjM1OjMyLjkyODUzMSIsInVzZXJfaWQiOiJiNGM0ODZmYy03YWRhLTQxNzgtYjM2My1jZWRhMGViZjQ4ZTEifQ.3GeezYgbcnMKwtEX6ppWmCG5ijkZZkkJQStMsKO0i4s' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Course service raise blood note.","courseId":"be59fc91-2252-4e92-8ee1-6c80a3f1900e","maxScore":95,"minScore":13,"description":"Without trade now control quickly place. Inside I argue bag avoid here.\nWork air plan why common receive. Under go change strategy few.\nCongress age debate hot top whether. Bed door sort customer.","estimatedTime":"6 weeks","orderIndex":76}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAzVDA5OjM1OjM0LjExMzg0NiIsInVzZXJfaWQiOiI5YjQ1ZDIzZi1lNjgyLTQzY2UtYWJiYy03YjYwZGU3YWQ1MzIifQ.ynrQYBnh3Vu8-4mT4pmA2O_Jp3PGcuwG2SYdxin7SVs' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lead decision some.","courseId":"788baa09-15d0-4eaf-9b4d-7ffd366b07c9","maxScore":50,"minScore":4,"description":"Learn must election itself year. Enjoy anything room many. Catch foreign question choose address perform.\nAbove writer need style left.","estimatedTime":"10 weeks","orderIndex":29}'

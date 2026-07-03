@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAzVDA5OjM1OjMzLjIwMTYzNSIsInVzZXJfaWQiOiIyMDIyMDI5Yy1mNTdkLTRmNDYtYTY0YS03MjY5NTU5Y2M4YmUifQ.IaKkyYQp_m5HGZPyKQZPjbztzjxlBWuHnj9_wioO9T4' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Write history drop heavy add candidate recent.","maxScore":81,"minScore":4,"description":"Nearly positive leave teach very population hope.\nHeart ball memory exactly bed. Decade rate eight yeah modern opportunity among many. Factor surface form someone.","estimatedTime":"10 weeks","previewFileId":"347c9be1-9594-4f86-a73c-875b5048af77","createdByUserId":"2022029c-f57d-4f46-a64a-7269559cc8be"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAzVDA5OjM1OjM1LjMwODI2NyIsInVzZXJfaWQiOiJlYTc0NWYxOS0xYjIzLTQ4NDEtOWE3YS1kMDIwNzgxOTdmZTEifQ.T7w2XsbaiYQDcy4U6jvxlUpoKk2jKILVlvMEJtg0U1E' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Threat Congress less nice our.","maxScore":62,"minScore":13,"description":"Teacher indicate role baby direction partner difference. Single senior environment measure detail ask clear. Thank eat central method major many.","estimatedTime":"9 weeks","previewFileId":"19a50fe7-a202-40ef-bf8e-096c76932348","createdByUserId":"ea745f19-1b23-4841-9a7a-d02078197fe1"}'

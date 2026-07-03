@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/bb810eb4-c56b-4fa7-ac57-3b2bc5114adf' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAzVDA5OjM1OjMyLjAyOTI5NiIsInVzZXJfaWQiOiJmYjA4M2Y3OC02ZmU2LTRjYWUtOWRjZS1hMTNlYTMzZDc1YzYifQ.8cOM4Kg_LZAAreQGt9oc6xSlYkCbE-4a6XWsi9vT-9o' \
+  -H 'content-length: 272' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Listen debate law sea ago.","maxScore":81,"minScore":24,"description":"Modern marriage hour eye raise dream. Value admit laugh population his job good. Perhaps during check light. Stock always allow.\nYour type example lose president.","estimatedTime":"3 weeks"}'

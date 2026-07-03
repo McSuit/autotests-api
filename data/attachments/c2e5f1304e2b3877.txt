@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAzVDA5OjM1OjMyLjAyOTI5NiIsInVzZXJfaWQiOiJmYjA4M2Y3OC02ZmU2LTRjYWUtOWRjZS1hMTNlYTMzZDc1YzYifQ.8cOM4Kg_LZAAreQGt9oc6xSlYkCbE-4a6XWsi9vT-9o' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Follow impact upon spend drive administration.","maxScore":74,"minScore":30,"description":"Large fire within speech purpose. Long stage leader woman.\nThen upon chair owner smile reveal according.","estimatedTime":"6 weeks","previewFileId":"96c2e6d2-f8cd-417d-a277-227838df6408","createdByUserId":"fb083f78-6fe6-4cae-9dce-a13ea33d75c6"}'

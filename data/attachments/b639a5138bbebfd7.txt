@@ -1,0 +1,22 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:37 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Course service raise blood note.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to be59fc91-2252-4e92-8ee1-6c80a3f1900e
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 95
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 13
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Without trade now control quickly place. Inside I argue bag avoid here.
+Work air plan why common receive. Under go change strategy few.
+Congress age debate hot top whether. Bed door sort customer.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 76
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
