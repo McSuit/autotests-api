@@ -62,18 +62,35 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses 2  # Запускаем тесты, отмеченные как "regression", генерируем результаты для Allure
 
-      # 8. Шаг для получения истории отчётов Allure, если она существует
+      # 8. Сохранение результатов Allure как артефакта для передачи в следующую джобу
+      - name: Upload Allure results
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results
+
+  publish-report:
+    runs-on: ubuntu-latest
+    needs: run-tests
+
+    steps:
+      # 1. Загрузка результатов Allure из артефакта предыдущей джобы
+      - name: Download Allure results
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results
+
+      # 2. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
-        uses: actions/checkout@v4  # Опять клонируем репозиторий, чтобы получить историю отчётов
-        if: always()  # Всегда выполняем, независимо от успеха или неудачи предыдущих шагов
+        uses: actions/checkout@v4  # Клонируем репозиторий, чтобы получить историю отчётов
         continue-on-error: true  # Если здесь возникнет ошибка, workflow всё равно продолжит выполнение
         with:
           ref: gh-pages  # Указываем ветку gh-pages для получения отчётов
           path: gh-pages  # Указываем путь для сохранения отчётов
 
-      # 9. Установка Allure CLI (без Docker: simple-elf/allure-report-action@v1.12 падает на openjdk:8-jre-alpine)
+      # 3. Установка Allure CLI (без Docker: simple-elf/allure-report-action@v1.12 падает на openjdk:8-jre-alpine)
       - name: Install Allure CLI
-        if: always()
         run: |
           sudo apt-get update
           sudo apt-get install -y openjdk-17-jre-headless wget tar
@@ -81,18 +98,17 @@ jobs:
           tar -zxf allure-2.32.0.tgz
           echo "$(pwd)/allure-2.32.0/bin" >> "$GITHUB_PATH"
 
-      # 10. Генерация Allure-отчёта с историей из gh-pages
+      # 4. Генерация Allure-отчёта с историей из gh-pages
       - name: Generate Allure Report with history
-        if: always()
         run: |
           if [ -d gh-pages/history ]; then
             cp -r gh-pages/history allure-results/history
           fi
           allure generate allure-results -o allure-report --clean
 
-      # 11. Деплой отчёта Allure на GitHub Pages
+      # 5. Деплой отчёта Allure на GitHub Pages
       - name: Deploy report to Github Pages
-        if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main'
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
