@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDEzOjM5OjMwLjE0OTY5MCIsInVzZXJfaWQiOiI0NDNjM2I1NS1jNTc2LTQ5YTEtYTIxMi1lNzRjZTM0ZGQ3ZDQifQ.o2qT585O5nu9i33PPXHNLDqnBgLrn28SBmuRyjVlKjg' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Professional seek visit assume describe.","maxScore":62,"minScore":5,"description":"Few no try describe worry stage. Quality when speak poor clearly box form. White large yourself contain activity least.\nMeeting southern hear wear number old.","estimatedTime":"4 weeks","previewFileId":"f4930dd0-1aed-4b80-9181-97946262a382","createdByUserId":"443c3b55-c576-49a1-a212-e74ce34dd7d4"}'

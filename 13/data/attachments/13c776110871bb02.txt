@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDEzOjM5OjE1Ljc1NTMxMCIsInVzZXJfaWQiOiJhODRmNWRlZC03MTM5LTQxOWQtYTQyZi05MjRlNmU3NWZmZDkifQ.cm6XWxzvlKtHpsjIp7uGcZPJEIaI8stuiZhcXtSrVlU' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Young clearly manager draw admit.","maxScore":66,"minScore":22,"description":"News travel would they six card against I. Different health full have majority anyone want TV.\nSociety national travel military late summer. Use staff say.","estimatedTime":"7 weeks","previewFileId":"96a29e5d-5232-4aec-a423-00cef739dac1","createdByUserId":"a84f5ded-7139-419d-a42f-924e6e75ffd9"}'

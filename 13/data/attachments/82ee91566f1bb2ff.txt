@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDEzOjIyOjA1LjA1NjE4OCIsInVzZXJfaWQiOiIwY2E5OThmYy02MzNjLTQ4ZDgtOTllNC05MjhmNjBmNGNlZDkifQ.wnamQcna5DQQXwyrKx9E7t3zvUVla1xk4oASIyjm2Sg' \
+  -H 'content-length: 454' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hope environmental each difficult cultural scientist data school.","maxScore":67,"minScore":24,"description":"Laugh program well daughter serve phone different. Society although Mrs store. Significant pay arrive particularly kind.\nRed sure court plant. Than final case lot knowledge for plant education.","estimatedTime":"7 weeks","previewFileId":"006bad13-0b41-4733-90e2-e826e3bbd123","createdByUserId":"0ca998fc-633c-48d8-99e4-928f60f4ced9"}'

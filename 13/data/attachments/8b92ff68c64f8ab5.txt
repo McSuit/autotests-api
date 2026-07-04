@@ -1,0 +1,32 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/courses?userId=ccf63cf2-c166-4ae1-a19f-0affe64ff3d0
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=ccf63cf2-c166-4ae1-a19f-0affe64ff3d0
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:89 Check get courses response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:74 Check that length of "courses" equals to 1
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:65 Check course
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to 09f7abad-a785-4a39-b11a-f409ea724678
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to Argue view woman agreement radio walk.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 72
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 6
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to Hear this crime street least black fund. Whether three knowledge necessary care term serve. Inside yet forward operation.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 1 weeks
+[32mINFO    [0m FILES_ASSERTIONS:files.py:40 Check file
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to bac4dadb-646d-453d-bb1c-c5726fe419ce
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "url" equals to http://localhost:8000/static/tests/5f69f90b-e211-4021-a72e-6776406cdab1.png
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "filename" equals to 5f69f90b-e211-4021-a72e-6776406cdab1.png
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "directory" equals to tests
+[32mINFO    [0m USERS_ASSERTIONS:users.py:36 Check user
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to ccf63cf2-c166-4ae1-a19f-0affe64ff3d0
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "email" equals to luis99@example.net
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "last_name" equals to Garcia
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "first_name" equals to Cheryl
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals to Jesus
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
