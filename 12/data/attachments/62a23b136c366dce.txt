@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjQ0OjQ1LjcyNjk5MCIsInVzZXJfaWQiOiI4MjAzOThkYS1lMjYwLTQ3MjYtYjYzMC0yZjY1YTI5NjEzYmUifQ.w4VsHT4CIoCOgeOiHoyxZwPNx0DMhhSQ6olgAUcqa_0' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Responsibility mother live long however sense.","maxScore":60,"minScore":23,"description":"Of hot help join table. Few wait town although voice treatment large.","estimatedTime":"3 weeks","previewFileId":"ff1908a0-9f64-4acf-b0c0-8564ebc476d8","createdByUserId":"820398da-e260-4726-b630-2f65a29613be"}'

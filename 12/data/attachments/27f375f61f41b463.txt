@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/d14bef92-7d53-4044-af68-c3cbbe1f887b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDEzOjM5OjMwLjE0OTY5MCIsInVzZXJfaWQiOiI0NDNjM2I1NS1jNTc2LTQ5YTEtYTIxMi1lNzRjZTM0ZGQ3ZDQifQ.o2qT585O5nu9i33PPXHNLDqnBgLrn28SBmuRyjVlKjg' \
+  -H 'content-length: 248' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Get section short star.","maxScore":72,"minScore":10,"description":"Huge add rate appear letter on alone. Military forget ago exactly maintain customer force. Lot give nation answer rule figure.","estimatedTime":"3 weeks","orderIndex":82}'

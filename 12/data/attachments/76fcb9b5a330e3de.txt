@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjQ0OjQ4LjE5MzY0NiIsInVzZXJfaWQiOiJiOTg1Y2M3OC0xYTljLTQwMzgtODIyMi01Zjk5MDg2YjE2ZWEifQ.qXyCe9FMdG1mvGpJuS_1IZgSRpWa4QJaz-hcW7l9Gds' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Artist green focus health beat Mr three.","maxScore":86,"minScore":23,"description":"Ok charge me should teacher few large.\nRemain stop item way physical. Talk drive newspaper boy. Daughter board fill recognize resource role begin.\nTown defense work science. Memory by enter like.","estimatedTime":"5 weeks","previewFileId":"3a9a1211-279f-4695-9f95-8eb34a5a336b","createdByUserId":"b985cc78-1a9c-4038-8222-5f99086b16ea"}'

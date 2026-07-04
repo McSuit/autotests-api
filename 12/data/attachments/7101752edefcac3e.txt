@@ -1,0 +1,21 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/exercises/d14bef92-7d53-4044-af68-c3cbbe1f887b
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises/d14bef92-7d53-4044-af68-c3cbbe1f887b
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:103 Check update exercise response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to Get section short star.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 72
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 10
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to Huge add rate appear letter on alone. Military forget ago exactly maintain customer force. Lot give nation answer rule figure.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 3 weeks
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 82
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDA3OjQxOjExLjUyNTUxNSIsInVzZXJfaWQiOiI3Y2MyNWQzMi05Yzg5LTQ1NjAtYTdhYy1hNDE0NjE5MTY2MjkifQ.BG2UKPLmMxrRyM8pFlcEzVi6-UcczlAxRIz1dWoVc5g' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Majority wrong wide morning finish.","maxScore":80,"minScore":5,"description":"Amount compare air throughout. Or chance effect identify page nature. Important main eat technology office.","estimatedTime":"1 weeks","previewFileId":"2fb768c2-cb23-4102-94c1-324604214ef6","createdByUserId":"7cc25d32-9c89-4560-a7ac-a41461916629"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/6cbbe948-aaaa-4ed4-a0ce-7bf29b85660f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjQ0OjQ1LjQ1MzQyOCIsInVzZXJfaWQiOiI4MzkxNWU3MS0yMGUzLTQ5Y2QtOTk5Ni1iN2Q1NmI0MDU0MDIifQ.4l2zTPsfzKQ-4jPq07C8P0fNHrgI6Flmi6m5HLykgnw' \
+  -H 'content-length: 265' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Century collection yard tonight somebody time.","maxScore":77,"minScore":22,"description":"Forget program north low deep figure me. Difficult magazine design environmental data human. Audience clear evening article opportunity.","estimatedTime":"5 weeks"}'

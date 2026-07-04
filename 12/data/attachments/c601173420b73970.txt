@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjQ0OjQ0LjU2NTU3NiIsInVzZXJfaWQiOiI2MmUxZGI1Ny02OTI4LTRkMTgtYjNhOS01MDQ1YmNlNDJmN2QifQ.TeQ3EHEAJYlQZHYxFpQfzJ4V39qA7P1A_PcCDT28bRY' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Later mission design peace.","maxScore":53,"minScore":1,"description":"Hour close Congress product all kid. Nation life participant. Test guess shoulder check expect rather evidence after.","estimatedTime":"2 weeks","previewFileId":"1be27f3f-0849-423f-8ae9-d19b78c75d1e","createdByUserId":"62e1db57-6928-4d18-b3a9-5045bce42f7d"}'

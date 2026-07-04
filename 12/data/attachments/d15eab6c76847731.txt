@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDA3OjA4OjI3LjEwMzgyMCIsInVzZXJfaWQiOiJhNjU4ZTI4ZS00MTU4LTQ0NGQtOTAyMi0xMzc4YTgwZDNlNWQifQ.PnLVGwFYrR4_90oID7SWsOqd7Wt93Se9uAxz4n4BPEg' \
+  -H 'content-length: 282' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Six window billion give key.","maxScore":83,"minScore":16,"description":"Arm hair to century who civil. Lose happy group technology.","estimatedTime":"4 weeks","previewFileId":"f560671d-0c7d-4943-b363-b11c947c4ad8","createdByUserId":"a658e28e-4158-444d-9022-1378a80d3e5d"}'

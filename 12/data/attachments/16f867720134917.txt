@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjQ0OjQ2LjY2NjQ5OCIsInVzZXJfaWQiOiJkMjM3ZGRjYy03YzA4LTRjNDUtYjYzOC02MzJjM2UyZWU5NDYifQ.KiGpD4ixRfGa7T5xNuAO4Kx8gggXdzR9_VlnLnU3MCc' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Laugh they particularly life consumer.","maxScore":92,"minScore":24,"description":"Focus few piece single movement. Give boy star become practice main. Go team body understand organization old including.","estimatedTime":"5 weeks","previewFileId":"a9c20f1c-d918-4a13-9032-9759a0db6546","createdByUserId":"d237ddcc-7c08-4c45-b638-632c3e2ee946"}'

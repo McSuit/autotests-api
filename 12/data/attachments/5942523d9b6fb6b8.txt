@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjQ0OjQ3LjkxOTExMiIsInVzZXJfaWQiOiI3Njg3ODg4MC0xMGJmLTQzYjQtYmJlZS00OTVlNzA5NTgwZjMifQ.9b1h7sSoSadf__Ebc8aif5O9FB1APuOEQYTGfwAxIFc' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Among week agreement style nice.","maxScore":63,"minScore":19,"description":"Meeting why stop Mrs television summer. Be human morning check throughout away. Fish send year station.","estimatedTime":"4 weeks","previewFileId":"969cd3e8-47b1-4cae-baa3-420cfcc8d1ce","createdByUserId":"76878880-10bf-43b4-bbee-495e709580f3"}'

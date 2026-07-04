@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjQ0OjQ1LjQ1MzQyOCIsInVzZXJfaWQiOiI4MzkxNWU3MS0yMGUzLTQ5Y2QtOTk5Ni1iN2Q1NmI0MDU0MDIifQ.4l2zTPsfzKQ-4jPq07C8P0fNHrgI6Flmi6m5HLykgnw' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Growth laugh soon name although stock include.","maxScore":54,"minScore":23,"description":"Large issue star attention energy blue. History us difficult often fear interview none.","estimatedTime":"10 weeks","previewFileId":"7dde376d-5e98-4c86-b714-809675208739","createdByUserId":"83915e71-20e3-49cd-9996-b7d56b405402"}'

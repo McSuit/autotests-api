@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjQ0OjQ2Ljk0MTMzOCIsInVzZXJfaWQiOiI1ODFkZDczMS1jMDY0LTRkYzktYTE2YS1hNjc1MjhhMDU4YTIifQ.rErV8Gi5ptGnp2z-4zdShnl5zaxoGs9o4gKnPtnWATM' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Model account national tax medical.","maxScore":70,"minScore":21,"description":"Option Democrat continue about. Number voice place message.\nOrder agree race laugh politics fly star military. Least usually everything red little. Condition wonder sell chair live.","estimatedTime":"1 weeks","previewFileId":"8a2cf6b1-3341-4db8-9572-7116da89b01f","createdByUserId":"581dd731-c064-4dc9-a16a-a67528a058a2"}'
