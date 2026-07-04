@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjQyOjAxLjQwMDQ3OCIsInVzZXJfaWQiOiIzMGUyZDAwOC1kN2JkLTRjZGMtYWI0YS0wZjQ3NDUzODNmN2YifQ.OEJ_G4W0xdpfBDePyOW2_LNnwCTMmFIJyHXoCPZWBI8' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Husband crime less girl area business.","maxScore":99,"minScore":17,"description":"Bar detail price enough medical today. Wish image include pretty voice thought police.","estimatedTime":"4 weeks","previewFileId":"e9bc1e5e-907a-4f70-b1b9-a405d4e0ec78","createdByUserId":"30e2d008-d7bd-4cdc-ab4a-0f4745383f7f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDA3OjQxOjA0LjE0Mzg1OCIsInVzZXJfaWQiOiI1OTUxMmZmMi1lNTRiLTQ1OTAtYTRjNS02NTNhNWI2N2U4NTQifQ.OXJbjz1HgWi06slTZfPAj6xfohjBMPM-SxG9bOD9Iz4' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Argue sing be open.","maxScore":82,"minScore":14,"description":"Minute seek look down. Television thus eat turn medical series theory whatever. Ability suddenly never majority room not positive.\nLess call specific activity. Page century help forget along.","estimatedTime":"7 weeks","previewFileId":"fb40833c-6ca6-4e6b-83c9-3bff675d8214","createdByUserId":"59512ff2-e54b-4590-a4c5-653a5b67e854"}'

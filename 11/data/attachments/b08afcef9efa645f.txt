@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjQyOjAyLjYxNDYxNyIsInVzZXJfaWQiOiJhNzgxYjUxYy1iNzg5LTRhMzQtYmZmNC1kNmQyODc1MmIwNDkifQ.Gy9ShsRxAY8f4UNdE2oriu2uwFFWKbWkub9kRoIz1Ps' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evidence there south responsibility.","maxScore":52,"minScore":23,"description":"Deep look language ability accept. Early low ready value.\nEnjoy civil garden door customer. Together system score prepare sell actually tax community.","estimatedTime":"2 weeks","previewFileId":"eb20910d-4d23-46fc-a2c9-08be3128c6bc","createdByUserId":"a781b51c-b789-4a34-bff4-d6d28752b049"}'

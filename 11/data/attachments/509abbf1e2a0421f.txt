@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjQyOjAzLjg4NjMwMCIsInVzZXJfaWQiOiIxMjJkMDllZC04MzRjLTQxZDEtYThjNy0yYTlhMGFhMDQ4NDQifQ.9QSyoO7U8aK5mseNzhdJwAB2n22ALNHHUH4b_TysG0E' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Onto school however like why yeah scientist.","maxScore":79,"minScore":2,"description":"Per tell teach work board. Wonder military hit door. Five bill offer partner report.\nFeeling particularly someone believe tonight.","estimatedTime":"4 weeks","previewFileId":"4be423f3-2b98-4eb7-a8c9-e804a3bacad6","createdByUserId":"122d09ed-834c-41d1-a8c7-2a9a0aa04844"}'

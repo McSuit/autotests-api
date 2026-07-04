@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:37 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to During he evening space anything house lose.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 091e5ec9-efc4-4acd-928f-fff154ee9173
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 92
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 5
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Build improve body treatment example. Next them unit debate. Moment expert local ball able believe scene.
+Fast bar probably town sort tell choose. Simply site story.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 9 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 3
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

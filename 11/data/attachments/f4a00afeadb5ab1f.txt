@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDA3OjA5OjA0LjgxMDkzNCIsInVzZXJfaWQiOiIzNTE1NzAxZi0zM2FmLTQ3MjctYWViMC0xZWIzYWI4NDhjZGMifQ.89LieQnBUsy-IJBn4-RRa_xyBo_ypyuI82xkSvm3yKk' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drug will so.","maxScore":54,"minScore":11,"description":"Training term factor lot job agent issue. Give tough career remember about.\nGrow allow agree right and data. Account ground international hot spring buy end. Kitchen without my matter onto various.","estimatedTime":"8 weeks","previewFileId":"28056fd1-c194-4dd7-9ba6-d2bc36e784dd","createdByUserId":"3515701f-33af-4727-aeb0-1eb3ab848cdc"}'

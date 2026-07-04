@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjQyOjAzLjMwNjA3NSIsInVzZXJfaWQiOiJjYjViZWU1ZS0zM2I1LTQyOGUtOThiZC04YTcxMmZkNDZjNWYifQ.aXnhQKpG-OrkLr7oDUepbodueLz9SF5ANWeSGql05yk' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cover increase relationship.","maxScore":89,"minScore":22,"description":"Gun civil Democrat person heavy capital. Plant main whole lot understand camera simple personal. Green around day range.","estimatedTime":"9 weeks","previewFileId":"0cdf3690-aff7-4c1d-bb72-d5c5708b0538","createdByUserId":"cb5bee5e-33b5-428e-98bd-8a712fd46c5f"}'

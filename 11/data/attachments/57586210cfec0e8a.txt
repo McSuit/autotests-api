@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjQxOjU5LjMzNDUyOSIsInVzZXJfaWQiOiI2NTA4N2I3Yy03N2Y1LTQzMDMtYTg4Yi0wOWZlM2ZmNmIyODIifQ.nuq1yD9XU5r54rjFU02n-livl9WInP8RxGrfopzmMKE' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Add hit water event product mission.","maxScore":77,"minScore":17,"description":"Question question billion teacher begin question. Become study begin ground pay break.\nHerself less administration form bar. True old like movement never tough little. Doctor represent stand improve.","estimatedTime":"5 weeks","previewFileId":"42c38026-fda1-45e3-83aa-20240e98993f","createdByUserId":"65087b7c-77f5-4303-a88b-09fe3ff6b282"}'

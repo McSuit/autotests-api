@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:25 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Political two everyone whether.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 86
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 8
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Quality type employee company mouth. Score authority debate program court story.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file.id" equals to d03d3436-ec26-4377-b8a4-10f85d75ef41
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user.id" equals to 3a032a1e-71e6-4d44-bafe-e82a0c3e94a9
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
