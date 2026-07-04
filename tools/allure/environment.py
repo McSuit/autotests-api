@@ -14,4 +14,4 @@ def create_allure_environment_file():
     properties = '\n'.join(items)
 
     with open(settings.allure_results_dir.joinpath('environment.properties'), 'w+') as file:
-        file.write(properties)  # Записываем переменные в файл
+        file.write(properties)

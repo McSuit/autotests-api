@@ -22,18 +22,18 @@ class Settings(BaseSettings):
         env_file=".env",
         env_file_encoding="utf-8",
         env_nested_delimiter=".",
+        extra="ignore",
     )
 
     test_data: TestDataConfig
     http_client: HTTPClientConfig
-    allure_results_dir: DirectoryPath  # Добавили новое поле
+    allure_results_dir: DirectoryPath
 
     @classmethod
-    def initialize(cls) -> Self:  # Возвращает экземпляр класса Settings
-        allure_results_dir = DirectoryPath("./allure-results")  # Создаем объект пути к папке
-        allure_results_dir.mkdir(exist_ok=True)  # Создаем папку allure-results, если она не существует
+    def initialize(cls) -> Self:
+        allure_results_dir = DirectoryPath("./allure-results")
+        allure_results_dir.mkdir(exist_ok=True)
 
-        # Передаем allure_results_dir в инициализацию настроек
         return Settings(allure_results_dir=allure_results_dir)
 
 

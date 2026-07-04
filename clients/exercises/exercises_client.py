@@ -12,7 +12,7 @@ from clients.exercises.exercises_schema import (
     UpdateExerciseResponseSchema,
 )
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
-from tools.routes import APIRoutes  # Импортируем enum APIRoutes
+from tools.routes import APIRoutes
 
 
 class ExercisesClient(APIClient):

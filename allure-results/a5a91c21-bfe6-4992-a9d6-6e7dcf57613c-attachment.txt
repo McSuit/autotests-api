@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDA3OjA4OjEyLjY3MjUwNyIsInVzZXJfaWQiOiI3MmVjODhmMS04YmMwLTRiYTQtOTcyYi1iNzdmNmMzODEzZDUifQ.ZnFzUZTGd7XiAk-Z3_N0IUZPHwDi0HtupcxHIBIfR0s' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Direction evening he ball air training.","maxScore":53,"minScore":24,"description":"Seven event such. Yet performance read understand better nor. Police large process development for.\nOut we outside mouth protect. Difficult check way. Century couple they social so station.","estimatedTime":"5 weeks","previewFileId":"da9dfc3f-75bc-43d1-a258-f1127946ee77","createdByUserId":"72ec88f1-8bc0-4ba4-972b-b77f6c3813d5"}'

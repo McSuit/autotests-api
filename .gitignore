@@ -1,10 +1,14 @@
-# pycharm
-.idea
-
-# python
-.venv
-__pycache__
-
-# allure
-allure-results
-allure-report
+.idea
+
+.venv
+__pycache__
+
+allure-results
+allure-report
+
+coverage.html
+coverage-results
+coverage-report.json
+coverage-history.json
+
+.DS_Store
