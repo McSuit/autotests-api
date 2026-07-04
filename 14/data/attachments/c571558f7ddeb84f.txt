@@ -1,0 +1,18 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:26 Check create course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to A machine dog leader have.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 67
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 24
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to Finish to particular last travel without feel ten. Stand again recent accept act dog. Explain best score through mouth difference. Kitchen couple pretty increase number.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 10 weeks
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "preview_file.id" equals to cf97e15a-0cdd-4725-9517-d522761500eb
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "created_by_user.id" equals to 8d996fbd-2dfd-4f4d-9e36-fd35e59fd76d
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

@@ -1,0 +1,33 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/courses?userId=8b31e483-e71e-4913-a0df-b7b31b8de357
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=8b31e483-e71e-4913-a0df-b7b31b8de357
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:89 Check get courses response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:74 Check that length of "courses" equals to 1
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:65 Check course
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to e9e06f79-3db4-44ea-b6b4-10f7f3930cb8
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to Natural everything ago popular write another.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 69
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 3
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to Water parent major for.
+Past short gas newspaper voice note. Line fight imagine play true. Dream skin third.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 4 weeks
+[32mINFO    [0m FILES_ASSERTIONS:files.py:40 Check file
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to 95d5c84f-7f02-4168-8712-6ef866fc0f5d
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "url" equals to http://localhost:8000/static/tests/0a34445a-6987-406a-ae8e-7e5ff4dd34b2.png
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "filename" equals to 0a34445a-6987-406a-ae8e-7e5ff4dd34b2.png
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "directory" equals to tests
+[32mINFO    [0m USERS_ASSERTIONS:users.py:36 Check user
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to 8b31e483-e71e-4913-a0df-b7b31b8de357
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "email" equals to sarah34@example.net
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "last_name" equals to Thompson
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "first_name" equals to Rita
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals to Bryan
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

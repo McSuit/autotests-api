@@ -1,0 +1,27 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=311c5ca8-6d46-4df8-a62e-bdc9e409ff44
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=311c5ca8-6d46-4df8-a62e-bdc9e409ff44
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:143 Check get exercises response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:74 Check that length of "exercises" equals to 1
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:60 Check exercise
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to 328a73a5-bc02-4fb1-b203-7cc3f0cf4049
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to Hard forget argue call important may money.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 311c5ca8-6d46-4df8-a62e-bdc9e409ff44
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 70
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 18
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to Require allow color pattern. Too instead pass recognize. Far finish college into.
+Claim region system prove fine shake. Candidate add smile politics.
+Direction car move performance.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 8 weeks
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 49
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

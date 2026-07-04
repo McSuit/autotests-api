@@ -1,0 +1,12 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+[32mINFO    [0m FILES_ASSERTIONS:files.py:24 Check create file response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "url" equals to http://localhost:8000/static/tests/467438ab-f4e0-45bb-b5a5-6ae317b07090.png
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "filename" equals to 467438ab-f4e0-45bb-b5a5-6ae317b07090.png
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "directory" equals to tests
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

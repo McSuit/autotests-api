@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDEzOjIxOjQzLjE2ODEzOSIsInVzZXJfaWQiOiI5NGRkMzllMi03YjM4LTQwMWMtYjY5ZC1iODZiZjJhMDE2ODIifQ.jqoLkFM-LqgOY27jbn20dn1OqDAf4pollrnDEWN93_w' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"More board likely usually.","maxScore":65,"minScore":23,"description":"Fish seem difficult quickly care. Bit fund price network fish. Would eat simple television truth late majority.\nProfessor red good if wife. High probably rather girl sit.","estimatedTime":"4 weeks","previewFileId":"3173ca4c-563e-4ca3-96b7-c4a7246d47c3","createdByUserId":"94dd39e2-7b38-401c-b69d-b86bf2a01682"}'
