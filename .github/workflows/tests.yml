@@ -85,8 +85,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out repository
+      - name: Get Allure history
         uses: actions/checkout@v4
+        if: always()
+        continue-on-error: true
         with:
           ref: gh-pages
           path: gh-pages
@@ -98,14 +100,16 @@ jobs:
           path: allure-results
 
       - name: Generate Allure Report with history
-        uses: simple-elf/allure-report-action@v1.12
+        id: allure-report
+        uses: simple-elf/allure-report-action@v1.14
         if: always()
         with:
           allure_results: allure-results
+          gh_pages: gh-pages
           allure_history: allure-history
 
       - name: Deploy report to Github Pages
-        if: always()
+        if: steps.allure-report.outcome == 'success'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

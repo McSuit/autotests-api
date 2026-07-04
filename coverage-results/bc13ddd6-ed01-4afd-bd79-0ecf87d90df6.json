@@ -1,0 +1,1 @@
+{"name":"/api/v1/courses","method":"GET","service":"api-course","status_code":200,"query_parameters":["userId"],"is_request_covered":false,"is_response_covered":true}

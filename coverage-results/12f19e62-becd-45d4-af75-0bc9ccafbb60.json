@@ -1,0 +1,1 @@
+{"name":"/api/v1/files/{file_id}","method":"GET","service":"api-course","status_code":404,"query_parameters":[],"is_request_covered":false,"is_response_covered":true}
