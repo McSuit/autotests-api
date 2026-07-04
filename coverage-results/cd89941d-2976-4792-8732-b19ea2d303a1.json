@@ -1,1 +1,0 @@
-{"name":"/api/v1/files/{file_id}","method":"DELETE","service":"api-course","status_code":200,"query_parameters":[],"is_request_covered":false,"is_response_covered":true}
