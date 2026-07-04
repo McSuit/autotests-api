@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjMwOjM5LjQ0NjM4OCIsInVzZXJfaWQiOiIxNzgzOTRkMi0wYjE0LTQ4MmMtYjVjMi0wZDk2N2QxYmM0YTIifQ.srqgMQsYD8ND9wN6iVvFIYgM23U_Hzw5QQXvlhCkU4k' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Collection peace thus marriage member.","maxScore":64,"minScore":7,"description":"Common class knowledge rule give end check. Sort defense impact record make employee. Later item contain. Believe big bar money yet smile dog.","estimatedTime":"6 weeks","previewFileId":"09be6eec-7da0-4af2-8b38-e5fb65283c91","createdByUserId":"178394d2-0b14-482c-b5c2-0d967d1bc4a2"}'

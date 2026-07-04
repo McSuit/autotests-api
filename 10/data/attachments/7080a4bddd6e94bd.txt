@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjMwOjQxLjc2MzgwMyIsInVzZXJfaWQiOiJhYTdmNGZlMy01MzlmLTQ4ZWItOWRhNy1mMGYyNjhmOGE1ZDcifQ.YBF47hAfAZoWbmVcINP8fuYV9NJuQD74D5vjVDYT6NY' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Although visit theory together money already much.","maxScore":98,"minScore":30,"description":"Probably third article surface. Executive skin certainly either near environment lose soldier.","estimatedTime":"2 weeks","previewFileId":"08a7a2dd-f7d8-4ff1-ab3e-9560c76ea4d8","createdByUserId":"aa7f4fe3-539f-48eb-9da7-f0f268f8a5d7"}'

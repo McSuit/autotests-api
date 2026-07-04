@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:25 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Collection peace thus marriage member.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 64
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 7
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Common class knowledge rule give end check. Sort defense impact record make employee. Later item contain. Believe big bar money yet smile dog.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file.id" equals to 09be6eec-7da0-4af2-8b38-e5fb65283c91
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user.id" equals to 178394d2-0b14-482c-b5c2-0d967d1bc4a2
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

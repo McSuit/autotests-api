@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjMwOjQwLjQzNDg4OSIsInVzZXJfaWQiOiI1OTNhODk4MC1jYzM1LTQzNGMtYjQ4Ni1jZGQxMzk3YTdjNmUifQ.Ocf9ZWPmU2ssOD4E-Zlmz6TP2Ld6zofWohwqqwxMF7Q' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Friend attention politics act lay.","maxScore":100,"minScore":4,"description":"Believe mind authority character admit arrive resource. Let last best because new plan have. Sense drop recently pretty.","estimatedTime":"3 weeks","previewFileId":"32ec24aa-e377-441a-9324-e6361f96e224","createdByUserId":"593a8980-cc35-434c-b486-cdd1397a7c6e"}'

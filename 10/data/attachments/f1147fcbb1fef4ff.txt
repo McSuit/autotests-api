@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjMwOjQzLjQ4MjA0NyIsInVzZXJfaWQiOiJiMzVlN2UyNi05ZTllLTQ5ZDctYjk1ZC04OTA0ZWQwOWYxNTMifQ.5yCOWlv3yOPcnM0TbYdb_fYVkkiptFQ_1-_tOyamoHU' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pick order stand fact challenge quality perform.","maxScore":62,"minScore":23,"description":"Entire show production.\nEarly her senior street whatever. Traditional road structure lawyer city. Hour already against receive trip forward Congress test.","estimatedTime":"3 weeks","previewFileId":"97f1eafd-8327-4636-9115-9b499e23e10b","createdByUserId":"b35e7e26-9e9e-49d7-b95d-8904ed09f153"}'

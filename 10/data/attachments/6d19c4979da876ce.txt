@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjMwOjQwLjc0MjU2MyIsInVzZXJfaWQiOiI0YjFmYWY0My0wYWIwLTRhNzMtOTBmOS03MjA4ZWNiZDYxNzMifQ.mleUAjWbvq6F9-un8WfQPjXrijfpXveG36pU9J5_2LE' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Behavior better bad prepare have.","maxScore":94,"minScore":4,"description":"Power all federal party. Need well paper offer management reveal.\nOccur situation whose give. Senior teacher program somebody community by.","estimatedTime":"10 weeks","previewFileId":"234032ad-1617-4b64-a044-7419cdf54e26","createdByUserId":"4b1faf43-0ab0-4a73-90f9-7208ecbd6173"}'

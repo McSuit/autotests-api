@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjMwOjQyLjA3MjczNSIsInVzZXJfaWQiOiIzMjEwYTU1NS1iY2RlLTRhN2EtOThlNi1hNzFhYTZhNGY3NTkifQ.BUBTU1-BE1lJxaKuZ0xCpqtL9XMabkWPwBRwYAjUwyU' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tough training blue my black.","maxScore":98,"minScore":24,"description":"Run few base better piece term. Land raise tell speech minute anyone. Six live consumer yard hundred heavy tree field.","estimatedTime":"9 weeks","previewFileId":"0c8cd5cb-8786-4e14-90b4-7ebac9eee156","createdByUserId":"3210a555-bcde-4a7a-98e6-a71aa6a4f759"}'

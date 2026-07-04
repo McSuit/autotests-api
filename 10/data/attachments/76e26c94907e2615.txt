@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/1865baf4-d8b0-42b8-a3e4-12b204b1a16e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjMwOjQwLjQzNDg4OSIsInVzZXJfaWQiOiI1OTNhODk4MC1jYzM1LTQzNGMtYjQ4Ni1jZGQxMzk3YTdjNmUifQ.Ocf9ZWPmU2ssOD4E-Zlmz6TP2Ld6zofWohwqqwxMF7Q' \
+  -H 'content-length: 244' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Total seven firm.","maxScore":51,"minScore":15,"description":"College person risk example space. Remember learn its glass traditional address than.\nPoint sister growth. Road customer character sure summer.","estimatedTime":"2 weeks"}'

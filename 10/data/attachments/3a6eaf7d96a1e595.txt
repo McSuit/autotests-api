@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDEzOjIxOjU3Ljc4NTYyMCIsInVzZXJfaWQiOiIxNzEzMDM0OC1lNDBiLTQxMWEtOWQwYy1mNzEyZjg2NzJlYTcifQ.vczv7bznZsZaNbllXIvivkN5KGgQj2XP_Gp2SN3fwj0' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evening box world can deep hour move.","maxScore":79,"minScore":27,"description":"Reduce family toward owner space evidence including generation. Thing what current.\nBecause reflect keep. Mention try him morning treat fall. Clear mission clear describe.","estimatedTime":"7 weeks","previewFileId":"6b610f34-bec0-49cd-a0f8-384d6886ff8b","createdByUserId":"17130348-e40b-411a-9d0c-f712f8672ea7"}'

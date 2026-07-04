@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDEzOjIxOjUwLjQ1NjMzOSIsInVzZXJfaWQiOiI0YWEyYzVmYS0yZjQ3LTRmYzEtYjMwYy1mZmQyOTIzZGMzNTMifQ.uqMt9O-NS1tBMmXCaKA5z02NspaKo4tIf_Y1WEhNE44' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Poor every any than song.","courseId":"50887192-74b5-41ce-93ff-4bd2129475b8","maxScore":76,"minScore":10,"description":"As themselves have. Field music tough policy pattern left. Today allow class evening moment usually improve military.\nAllow rest miss perform return try. Or trip different offer thank and create.","estimatedTime":"8 weeks","orderIndex":33}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDA2OjMwOjM4Ljc5NTg3MSIsInVzZXJfaWQiOiJhYzQ1ZWZlNy01MWMyLTQ3MGItYTgwMy1mMmNlZWM3MjNhOGQifQ.RUfSiF-8xOxmj8BnndRw9UR8UsWEvJCPCoAWXAjGfyA' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Control similar despite he accept.","maxScore":75,"minScore":4,"description":"Nice action talk even. Consumer enter her little. Relationship hold property theory cold memory.\nEven bed against beyond final second.\nStory nothing friend past some.","estimatedTime":"1 weeks","previewFileId":"6b3f8f8a-6dc3-4903-b5b8-da0d7b983f84","createdByUserId":"ac45efe7-51c2-470b-a803-f2ceec723a8d"}'
